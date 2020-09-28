@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/my_favourite_page"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="140dp"
+        android:text="@string/favourite"
+        android:textColor="@color/colorSelected"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:layout_below="@+id/my_favourite_page"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="65dp">
+
+        <TableLayout
+            android:id="@+id/showTheHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </ScrollView>
+
+    <include
+        layout="@layout/bottom_navigation" ></include>
+
+</RelativeLayout>

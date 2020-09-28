@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "588668125921",
+    "firebase_url": "https://appcontest-b3868.firebaseio.com",
+    "project_id": "appcontest-b3868",
+    "storage_bucket": "appcontest-b3868.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588668125921:android:16c7dabd3932745a32ada0",
+        "android_client_info": {
+          "package_name": "com.go.go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588668125921-d0ktbjnvobjrieqdfi6svmslfgiei648.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.go.go",
+            "certificate_hash": "ed3201ec7db0ecd87095d9aa375f735b4864c17a"
+          }
+        },
+        {
+          "client_id": "588668125921-9itano2u2oe2ji053sp9ef8ib6rabncp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.go.go",
+            "certificate_hash": "a51a210c95706326470a024994535961b07dd437"
+          }
+        },
+        {
+          "client_id": "588668125921-jiftdgj2kpfpntddmnf8sghrc603mtb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8dAFZ6IEvXsBXqkctLz48Dtyd7lTlfu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588668125921-jiftdgj2kpfpntddmnf8sghrc603mtb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

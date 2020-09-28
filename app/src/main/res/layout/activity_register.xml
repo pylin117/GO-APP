@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="175dp"
+        android:fontFamily="@font/microsoft_jhenghei"
+        android:text="@string/registertext"
+        android:textColor="#7AC09A"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/confirmPasswordRigester"
+        android:layout_width="158dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/passwordRigester"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorLightGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/TextViewRigester" />
+
+    <TextView
+        android:id="@+id/TextViewRigester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewRigester1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/microsoft_jhenghei"
+        android:text="@string/confirmPasseord"
+        android:textColor="#4B4B4B"
+        android:textSize="24dp"
+        app:fontFamily="@font/microsoft_jhenghei"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewRigester1" />
+
+    <EditText
+        android:id="@+id/passwordRigester"
+        android:layout_width="196dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/accountRigester"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="81dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorLightGreen"
+        app:layout_constraintBottom_toTopOf="@+id/confirmPasswordRigester"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/TextViewRigester1" />
+
+    <EditText
+        android:id="@+id/accountRigester"
+        android:layout_width="196dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="86dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorLightGreen"
+        app:layout_constraintBottom_toTopOf="@+id/passwordRigester"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TextViewRigester2" />
+
+    <TextView
+        android:id="@+id/TextViewRigester2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/microsoft_jhenghei"
+        android:text="@string/account"
+        android:textColor="#4B4B4B"
+        android:textSize="24dp"
+        app:fontFamily="@font/microsoft_jhenghei"
+        app:layout_constraintEnd_toStartOf="@+id/accountRigester"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TextViewRigester1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewRigester2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/microsoft_jhenghei"
+        android:text="@string/password"
+        android:textColor="#4B4B4B"
+        android:textSize="24dp"
+        app:fontFamily="@font/microsoft_jhenghei"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewRigester2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="185dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_small" />
+
+    <TextView
+        android:id="@+id/existingAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="@font/microsoft_jhenghei"
+        android:text="@string/existingAccount"
+        android:textColor="#4B4B4B"
+        android:textSize="24dp"
+        app:fontFamily="@font/microsoft_jhenghei"
+        app:layout_constraintEnd_toStartOf="@+id/login_signup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewRigester"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <Button
+        android:id="@+id/login_signup"
+        android:layout_width="144dp"
+        android:layout_height="66dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="39dp"
+        android:background="#7AC09A"
+        android:fontFamily="@font/microsoft_jhenghei"
+        android:text="@string/register"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        app:fontFamily="@font/microsoft_jhenghei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/existingAccount"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordRigester"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <include
+        layout="@layout/bottom_navigation"
+        android:visibility="invisible"></include>
+
+
+</RelativeLayout>

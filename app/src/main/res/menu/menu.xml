@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search"
+        android:title="搜尋" />
+    <item
+        android:id="@+id/action_recommend"
+        android:icon="@drawable/recommend"
+        android:title="推薦" />
+    <item
+        android:id="@+id/action_tour"
+        android:icon="@drawable/schedule"
+        android:title="行程" />
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/more"
+        android:title="更多"/>
+</menu>
